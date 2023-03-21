@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dalexa10.github.iodalexa10/sitemap.xml
+Sitemap: https://dalexa10.github.io/sitemap.xml
