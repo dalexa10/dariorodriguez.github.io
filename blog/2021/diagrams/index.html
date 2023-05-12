@@ -20,6 +20,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
+
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
@@ -28,13 +31,15 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
+    
+
     <!-- Styles -->
     
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://dalexa10.github.io/blog/2021/diagrams/">
-    
+
     <!-- Dark Mode -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
@@ -124,7 +129,8 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      
+        <!-- _layouts/post.html -->
 
 <div class="post">
 
@@ -138,7 +144,9 @@
   </header>
 
   <article class="post-content">
-    <p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank" rel="external nofollow noopener">jekyll-diagrams</a> plugin.
+    
+    <div id="markdown-content">
+      <p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank" rel="external nofollow noopener">jekyll-diagrams</a> plugin.
 Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank" rel="external nofollow noopener">mermaid</a>, <a href="https://plantuml.com/" target="\_blank" rel="external nofollow noopener">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank" rel="external nofollow noopener">vega-lite</a>, etc.</p>
 
 <p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
@@ -163,8 +171,8 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1679364852756" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewbox="-50 -10 450 231"><style>#mermaid-1679364852756 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1679364852756 .node circle,#mermaid-1679364852756 .node ellipse,#mermaid-1679364852756 .node polygon,#mermaid-1679364852756 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1679364852756 .node.clickable{cursor:pointer}#mermaid-1679364852756 .arrowheadPath{fill:#333}#mermaid-1679364852756 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1679364852756 .edgeLabel{background-color:#e8e8e8}#mermaid-1679364852756 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1679364852756 .cluster text{fill:#333}#mermaid-1679364852756 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1679364852756 .actor{stroke:#ccf;fill:#ececff}#mermaid-1679364852756 text.actor{fill:#000;stroke:none}#mermaid-1679364852756 .actor-line{stroke:grey}#mermaid-1679364852756 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1679364852756 .messageLine0,#mermaid-1679364852756 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1679364852756 #arrowhead{fill:#333}#mermaid-1679364852756 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1679364852756 .messageText{fill:#333;stroke:none}#mermaid-1679364852756 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1679364852756 .labelText,#mermaid-1679364852756 .loopText{fill:#000;stroke:none}#mermaid-1679364852756 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1679364852756 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1679364852756 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1679364852756 .section{stroke:none;opacity:.2}#mermaid-1679364852756 .section0{fill:rgba(102,102,255,.49)}#mermaid-1679364852756 .section2{fill:#fff400}#mermaid-1679364852756 .section1,#mermaid-1679364852756 .section3{fill:#fff;opacity:.2}#mermaid-1679364852756 .sectionTitle0,#mermaid-1679364852756 .sectionTitle1,#mermaid-1679364852756 .sectionTitle2,#mermaid-1679364852756 .sectionTitle3{fill:#333}#mermaid-1679364852756 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1679364852756 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1679364852756 .grid path{stroke-width:0}#mermaid-1679364852756 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1679364852756 .task{stroke-width:2}#mermaid-1679364852756 .taskText{text-anchor:middle;font-size:11px}#mermaid-1679364852756 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1679364852756 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1679364852756 .taskText0,#mermaid-1679364852756 .taskText1,#mermaid-1679364852756 .taskText2,#mermaid-1679364852756 .taskText3{fill:#fff}#mermaid-1679364852756 .task0,#mermaid-1679364852756 .task1,#mermaid-1679364852756 .task2,#mermaid-1679364852756 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1679364852756 .taskTextOutside0,#mermaid-1679364852756 .taskTextOutside1,#mermaid-1679364852756 .taskTextOutside2,#mermaid-1679364852756 .taskTextOutside3{fill:#000}#mermaid-1679364852756 .active0,#mermaid-1679364852756 .active1,#mermaid-1679364852756 .active2,#mermaid-1679364852756 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1679364852756 .activeText0,#mermaid-1679364852756 .activeText1,#mermaid-1679364852756 .activeText2,#mermaid-1679364852756 .activeText3{fill:#000!important}#mermaid-1679364852756 .done0,#mermaid-1679364852756 .done1,#mermaid-1679364852756 .done2,#mermaid-1679364852756 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1679364852756 .doneText0,#mermaid-1679364852756 .doneText1,#mermaid-1679364852756 .doneText2,#mermaid-1679364852756 .doneText3{fill:#000!important}#mermaid-1679364852756 .crit0,#mermaid-1679364852756 .crit1,#mermaid-1679364852756 .crit2,#mermaid-1679364852756 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1679364852756 .activeCrit0,#mermaid-1679364852756 .activeCrit1,#mermaid-1679364852756 .activeCrit2,#mermaid-1679364852756 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1679364852756 .doneCrit0,#mermaid-1679364852756 .doneCrit1,#mermaid-1679364852756 .doneCrit2,#mermaid-1679364852756 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1679364852756 .activeCritText0,#mermaid-1679364852756 .activeCritText1,#mermaid-1679364852756 .activeCritText2,#mermaid-1679364852756 .activeCritText3,#mermaid-1679364852756 .doneCritText0,#mermaid-1679364852756 .doneCritText1,#mermaid-1679364852756 .doneCritText2,#mermaid-1679364852756 .doneCritText3{fill:#000!important}#mermaid-1679364852756 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1679364852756 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1679364852756 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1679364852756 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1679364852756 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1679364852756 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1679364852756 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1679364852756 #compositionEnd,#mermaid-1679364852756 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1679364852756 #aggregationEnd,#mermaid-1679364852756 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1679364852756 #dependencyEnd,#mermaid-1679364852756 #dependencyStart,#mermaid-1679364852756 #extensionEnd,#mermaid-1679364852756 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1679364852756 .branch-label,#mermaid-1679364852756 .commit-id,#mermaid-1679364852756 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style>
-<style>#mermaid-1679364852756 {
+  <svg id="mermaid-1683909637881" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewbox="-50 -10 450 231"><style>#mermaid-1683909637881 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1683909637881 .node circle,#mermaid-1683909637881 .node ellipse,#mermaid-1683909637881 .node polygon,#mermaid-1683909637881 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1683909637881 .node.clickable{cursor:pointer}#mermaid-1683909637881 .arrowheadPath{fill:#333}#mermaid-1683909637881 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1683909637881 .edgeLabel{background-color:#e8e8e8}#mermaid-1683909637881 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1683909637881 .cluster text{fill:#333}#mermaid-1683909637881 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1683909637881 .actor{stroke:#ccf;fill:#ececff}#mermaid-1683909637881 text.actor{fill:#000;stroke:none}#mermaid-1683909637881 .actor-line{stroke:grey}#mermaid-1683909637881 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1683909637881 .messageLine0,#mermaid-1683909637881 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1683909637881 #arrowhead{fill:#333}#mermaid-1683909637881 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1683909637881 .messageText{fill:#333;stroke:none}#mermaid-1683909637881 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1683909637881 .labelText,#mermaid-1683909637881 .loopText{fill:#000;stroke:none}#mermaid-1683909637881 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1683909637881 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1683909637881 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1683909637881 .section{stroke:none;opacity:.2}#mermaid-1683909637881 .section0{fill:rgba(102,102,255,.49)}#mermaid-1683909637881 .section2{fill:#fff400}#mermaid-1683909637881 .section1,#mermaid-1683909637881 .section3{fill:#fff;opacity:.2}#mermaid-1683909637881 .sectionTitle0,#mermaid-1683909637881 .sectionTitle1,#mermaid-1683909637881 .sectionTitle2,#mermaid-1683909637881 .sectionTitle3{fill:#333}#mermaid-1683909637881 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1683909637881 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1683909637881 .grid path{stroke-width:0}#mermaid-1683909637881 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1683909637881 .task{stroke-width:2}#mermaid-1683909637881 .taskText{text-anchor:middle;font-size:11px}#mermaid-1683909637881 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1683909637881 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1683909637881 .taskText0,#mermaid-1683909637881 .taskText1,#mermaid-1683909637881 .taskText2,#mermaid-1683909637881 .taskText3{fill:#fff}#mermaid-1683909637881 .task0,#mermaid-1683909637881 .task1,#mermaid-1683909637881 .task2,#mermaid-1683909637881 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1683909637881 .taskTextOutside0,#mermaid-1683909637881 .taskTextOutside1,#mermaid-1683909637881 .taskTextOutside2,#mermaid-1683909637881 .taskTextOutside3{fill:#000}#mermaid-1683909637881 .active0,#mermaid-1683909637881 .active1,#mermaid-1683909637881 .active2,#mermaid-1683909637881 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1683909637881 .activeText0,#mermaid-1683909637881 .activeText1,#mermaid-1683909637881 .activeText2,#mermaid-1683909637881 .activeText3{fill:#000!important}#mermaid-1683909637881 .done0,#mermaid-1683909637881 .done1,#mermaid-1683909637881 .done2,#mermaid-1683909637881 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1683909637881 .doneText0,#mermaid-1683909637881 .doneText1,#mermaid-1683909637881 .doneText2,#mermaid-1683909637881 .doneText3{fill:#000!important}#mermaid-1683909637881 .crit0,#mermaid-1683909637881 .crit1,#mermaid-1683909637881 .crit2,#mermaid-1683909637881 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1683909637881 .activeCrit0,#mermaid-1683909637881 .activeCrit1,#mermaid-1683909637881 .activeCrit2,#mermaid-1683909637881 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1683909637881 .doneCrit0,#mermaid-1683909637881 .doneCrit1,#mermaid-1683909637881 .doneCrit2,#mermaid-1683909637881 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1683909637881 .activeCritText0,#mermaid-1683909637881 .activeCritText1,#mermaid-1683909637881 .activeCritText2,#mermaid-1683909637881 .activeCritText3,#mermaid-1683909637881 .doneCritText0,#mermaid-1683909637881 .doneCritText1,#mermaid-1683909637881 .doneCritText2,#mermaid-1683909637881 .doneCritText3{fill:#000!important}#mermaid-1683909637881 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1683909637881 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1683909637881 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1683909637881 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1683909637881 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1683909637881 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1683909637881 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1683909637881 #compositionEnd,#mermaid-1683909637881 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683909637881 #aggregationEnd,#mermaid-1683909637881 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1683909637881 #dependencyEnd,#mermaid-1683909637881 #dependencyStart,#mermaid-1683909637881 #extensionEnd,#mermaid-1683909637881 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683909637881 .branch-label,#mermaid-1683909637881 .commit-id,#mermaid-1683909637881 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style>
+<style>#mermaid-1683909637881 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style>
@@ -172,6 +180,7 @@ sequenceDiagram
 </div>
 
 
+    </div>
   </article>
 
 
@@ -194,29 +203,30 @@ sequenceDiagram
   
 
   <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/tables/">displaying beatiful tables with Bootstrap Tables</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/table-of-contents/">a post with table of contents</a>
+  </li>
+
+  
+
+  <li class="my-2">
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/redirect/">a post with redirect</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/distill/">a distill-style blog post</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2020/github-metadata/">a post with github metadata</a>
   </li>
 
 </div>
 
+      
     </div>
 
     <!-- Footer -->    
@@ -242,7 +252,13 @@ sequenceDiagram
     
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
   <script defer src="/assets/js/common.js"></script>
   <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
 
